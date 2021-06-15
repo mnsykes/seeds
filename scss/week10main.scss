@@ -1,0 +1,92 @@
+@import "variables";
+@import "modal";
+@import "nav";
+@import "sidebar";
+@import "footer";
+@import "jumbotron";
+@import "home";
+@import "farm";
+@import "farmstand";
+@import "involved";
+@import "blog";
+@import "about";
+@import "contact";
+
+// GLOBAL STYLES
+* {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	font-family: "average sans", sans-serif;
+	font-size: 1.2rem;
+}
+
+p {
+	font-family: "average sans", sans-serif;
+	font-size: 1.2rem;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "average sans", sans-serif;
+	color: #333;
+}
+
+// END GLOBAL STYLES
+
+// LANDING PAGE STYLES
+#landing-page-container {
+	background: url(../assets/images/ghwithclass.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 100vh;
+	width: 100vw;
+
+	// call to action
+	.cta {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		i {
+			font-size: 20rem;
+			color: $yellow;
+		}
+
+		h1 {
+			color: white;
+			font-size: 6rem;
+		}
+
+		button {
+			outline: none;
+			border: none;
+			background: $yellow;
+			color: #333;
+			padding: 1.3rem 3rem;
+			font-size: 1.2rem;
+			cursor: pointer;
+
+			&:hover {
+				background: rgba($color: $yellow, $alpha: 0.9);
+				color: white;
+			}
+		}
+	}
+}
+// END LANDING PAGE STYLES

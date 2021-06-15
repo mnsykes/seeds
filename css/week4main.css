@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-wrapper {
+  height: 100vh;
+  background: url(../week4/assets/images/pexels-binyamin-mellish-169523.jpg);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 200px 0;
+}
+
+#logo h1 {
+  font-family: "Poiret One", "Pacifico", cursive;
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 128, 0, 0.4);
+  width: 100vw;
+}
+
+nav .nav-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0;
+}
+
+nav .nav-links-list .nav-link:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+
+nav .nav-links-list .nav-link a {
+  color: white;
+  font-family: "Poiret One", cursive;
+  font-size: 32px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=week4main.css.map */

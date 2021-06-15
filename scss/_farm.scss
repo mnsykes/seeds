@@ -1,0 +1,50 @@
+// FARM CONTAINER STYLES
+#farm-container {
+	.farm-main {
+		padding-top: 6rem;
+
+		.farm-copy {
+			.volunteer {
+				padding: 1rem 2rem;
+				border-top: 3px solid $dark-green;
+				border-bottom: 3px solid $dark-green;
+				background: rgba($color: $yellow, $alpha: 0.5);
+
+				span {
+					font-weight: bold;
+					font-size: 1.5rem;
+					color: purple;
+				}
+			}
+
+			.img-header-farm {
+				height: 25rem;
+				width: 69.375rem;
+				background: url(../assets/images/no-till.jpg);
+				background-size: cover;
+				background-position: center center;
+			}
+
+			.img-header-grow {
+				height: 25rem;
+				width: 69.375rem;
+				background: url(../assets/images/farm-cardboard.jpg);
+				background-size: cover;
+				background-position: center center;
+			}
+
+			.img-header-energy {
+				height: 25rem;
+				width: 69.375rem;
+				background: url(../assets/images/farm-solarstudents.jpg);
+				background-size: cover;
+				background-position: center center;
+			}
+
+			.construction {
+				list-style-type: disc;
+			}
+		}
+	}
+}
+// END FARM CONTAINER STYLES

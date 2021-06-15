@@ -1,0 +1,85 @@
+// Footer
+.footer {
+	width: 100%;
+	background: $dark-green;
+	padding-top: 1.5rem;
+
+	// left side containing farm contact info
+	.company-footer {
+		padding-left: 6rem;
+		display: flex;
+		flex-direction: column;
+
+		h3 {
+			color: $yellow;
+			font-family: "bellota", cursive;
+
+			&:hover {
+				color: white;
+				text-decoration: $yellow underline;
+			}
+		}
+
+		a {
+			color: $yellow;
+
+			&:hover {
+				color: white;
+				text-decoration: $yellow underline;
+			}
+		}
+	}
+	// end farm contact info
+
+	// center containing newsletter subscribe form
+	.subscribe-footer {
+		input {
+			height: 3rem;
+		}
+
+		.btn {
+			height: 3rem;
+			border: none;
+			outline: none;
+			border-radius: 0;
+			background: $yellow;
+
+			&:hover {
+				background: rgba($color: $yellow, $alpha: 0.9);
+				color: white;
+				font-weight: bold;
+			}
+		}
+
+		h3 {
+			color: $yellow;
+			font-weight: bold;
+		}
+	}
+	// end newsletter
+
+	// right side containing social media icons
+	.social-footer {
+		h3 {
+			color: $yellow;
+			font-weight: bold;
+		}
+
+		.social-icons {
+			display: flex;
+			justify-content: center;
+			i {
+				margin: 0 0.5rem;
+				font-size: 3rem;
+				color: $yellow;
+
+				&:hover {
+					transform: scale(1.1);
+					color: white;
+				}
+			}
+		}
+	}
+	// end social icons
+}
+// end footer

@@ -1,0 +1,760 @@
+#subscribe-modal {
+  border-radius: none;
+}
+
+#subscribe-modal .modal-header {
+  background: #465649;
+}
+
+#subscribe-modal p {
+  font-size: 1.3rem;
+}
+
+#subscribe-modal h1 {
+  color: #f1cf69;
+}
+
+#subscribe-modal h1 i {
+  color: #f1cf69;
+}
+
+#subscribe-modal span {
+  color: #f1cf69;
+}
+
+#subscribe-modal .modal-footer {
+  background: #465649;
+}
+
+#subscribe-modal .modal-footer input {
+  height: 3rem;
+}
+
+#subscribe-modal .modal-footer .btn {
+  height: 3rem;
+  background: #f1cf69;
+  color: #465649;
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+
+#subscribe-modal .modal-footer .btn:hover {
+  background: rgba(241, 207, 105, 0.9);
+}
+
+.navbar {
+  background: #465649;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar .navbar-brand {
+  color: #f1cf69;
+  font-size: 2rem;
+  font-family: "bellota", cursive;
+}
+
+.navbar .navbar-brand i {
+  color: #f1cf69;
+  font-size: 2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+  -webkit-text-decoration: #f1cf69 underline;
+          text-decoration: #f1cf69 underline;
+}
+
+.navbar .nav-item {
+  padding-left: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item a.nav-link {
+  color: #f1cf69;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-item a.nav-link:hover {
+  color: white;
+  -webkit-text-decoration: #f1cf69 underline;
+          text-decoration: #f1cf69 underline;
+}
+
+.navbar form input {
+  border-radius: 0;
+}
+
+.navbar form .btn {
+  color: #333;
+  outline: none;
+  border: none;
+  background: #f1cf69;
+  border-radius: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar form .btn:hover {
+  background: rgba(241, 207, 105, 0.9);
+  color: white;
+}
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.social-bar a {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.social-bar a:hover {
+  opacity: 1;
+}
+
+.social-bar .facebook {
+  background: rgba(59, 89, 152, 0.6);
+}
+
+.social-bar .facebook:hover {
+  background: #3b5998;
+}
+
+.social-bar .twitter {
+  background: rgba(85, 172, 238, 0.6);
+}
+
+.social-bar .twitter:hover {
+  background: #55acee;
+}
+
+.social-bar .instagram {
+  background: rgba(64, 93, 230, 0.6);
+}
+
+.social-bar .instagram:hover {
+  background: #405de6;
+}
+
+.social-bar .youtube {
+  background: rgba(187, 0, 0, 0.6);
+}
+
+.social-bar .youtube:hover {
+  background: #bb0000;
+}
+
+.footer {
+  width: 100%;
+  background: #465649;
+  padding-top: 1.5rem;
+}
+
+.footer .company-footer {
+  padding-left: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .company-footer h3 {
+  color: #f1cf69;
+  font-family: "bellota", cursive;
+}
+
+.footer .company-footer h3:hover {
+  color: white;
+  -webkit-text-decoration: #f1cf69 underline;
+          text-decoration: #f1cf69 underline;
+}
+
+.footer .company-footer a {
+  color: #f1cf69;
+}
+
+.footer .company-footer a:hover {
+  color: white;
+  -webkit-text-decoration: #f1cf69 underline;
+          text-decoration: #f1cf69 underline;
+}
+
+.footer .subscribe-footer input {
+  height: 3rem;
+}
+
+.footer .subscribe-footer .btn {
+  height: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  background: #f1cf69;
+}
+
+.footer .subscribe-footer .btn:hover {
+  background: rgba(241, 207, 105, 0.9);
+  color: white;
+  font-weight: bold;
+}
+
+.footer .subscribe-footer h3 {
+  color: #f1cf69;
+  font-weight: bold;
+}
+
+.footer .social-footer h3 {
+  color: #f1cf69;
+  font-weight: bold;
+}
+
+.footer .social-footer .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .social-footer .social-icons i {
+  margin: 0 0.5rem;
+  font-size: 3rem;
+  color: #f1cf69;
+}
+
+.footer .social-footer .social-icons i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+.jumbotron {
+  background: #465649;
+}
+
+.jumbotron hr {
+  background: #f1cf69;
+}
+
+.jumbotron .container p {
+  color: white;
+}
+
+.jumbotron .container a {
+  color: #f1cf69;
+}
+
+.jumbotron .container h1 {
+  color: #f1cf69;
+  font-family: "bellota", cursive;
+}
+
+.jumbotron .container h1 i {
+  color: #f1cf69;
+}
+
+#home-container .home-main {
+  padding-top: 6rem;
+}
+
+#home-container .home-main .farm-news {
+  border-bottom: 2px solid #465649;
+}
+
+#home-container .home-main .farm-news #newsletter {
+  width: 70%;
+  margin: 0 auto 3.5rem auto;
+  border-bottom: 3px solid #465649;
+}
+
+#home-container .home-main .farm-news #newsletter .form-head {
+  padding: 0.5rem 0;
+  width: 100%;
+  background: #465649;
+}
+
+#home-container .home-main .farm-news #newsletter .form-head h2 {
+  color: #f1cf69;
+  border-bottom: 2px solid #465649;
+  text-align: center;
+}
+
+#home-container .home-main .farm-news #newsletter .form-body {
+  padding: 1rem 2rem 0 2rem;
+  font-weight: bold;
+}
+
+#home-container .home-main .farm-news #newsletter .form-group input {
+  border: 1px solid #465649;
+  height: 3rem;
+}
+
+#home-container .home-main .farm-news #newsletter .form-group button {
+  height: 3rem;
+  background: #f1cf69;
+  color: #333;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+
+#home-container .home-main .farm-news #newsletter .form-group button:hover {
+  background: rgba(241, 207, 105, 0.9);
+  color: white;
+}
+
+#home-container .home-main .card .btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f1cf69;
+  color: #333;
+}
+
+#home-container .home-main .card .btn:hover {
+  background: rgba(70, 86, 73, 0.9);
+  color: #f1cf69;
+  font-weight: bold;
+}
+
+#home-container .home-main .donate {
+  padding-bottom: 2rem;
+}
+
+#home-container .home-main .donate h1 {
+  padding: 1rem;
+  color: #333;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 3px solid #465649;
+}
+
+#home-container .home-main .donate form label {
+  font-weight: bold;
+}
+
+#home-container .home-main .donate form input {
+  padding: 0.7rem;
+  border-radius: 0;
+}
+
+#home-container .home-main .donate form select {
+  border-radius: 0;
+}
+
+#home-container .home-main .donate form button {
+  color: #333;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f1cf69;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+#home-container .home-main .donate form button:hover {
+  background: rgba(70, 86, 73, 0.9);
+  color: #f1cf69;
+  font-weight: bold;
+}
+
+#farm-container .farm-main {
+  padding-top: 6rem;
+}
+
+#farm-container .farm-main .farm-copy .volunteer {
+  padding: 1rem 2rem;
+  border-top: 3px solid #465649;
+  border-bottom: 3px solid #465649;
+  background: rgba(241, 207, 105, 0.5);
+}
+
+#farm-container .farm-main .farm-copy .volunteer span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: purple;
+}
+
+#farm-container .farm-main .farm-copy .img-header-farm {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/no-till.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#farm-container .farm-main .farm-copy .img-header-grow {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/farm-cardboard.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#farm-container .farm-main .farm-copy .img-header-energy {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/farm-solarstudents.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#farm-container .farm-main .farm-copy .construction {
+  list-style-type: disc;
+}
+
+#farmstand-container .farmstand-main {
+  margin-top: 6rem;
+}
+
+#farmstand-container .farmstand-main .farmstand-copy .img-header-farmstand {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/farmstand-interior.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#farmstand-container .farmstand-main .farmstand-copy .img-header-art {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/farmstand-altar.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#involved-container .involved-main {
+  margin-top: 6rem;
+}
+
+#involved-container #get-involved .img-header-involved {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/involved-kids-gardening.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#involved-container #s-gardens .img-header-school {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/involved-sg-yummysign.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#involved-container #gfe .img-header-gfe {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/33435702-33435702.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#involved-container #sol .img-header-sol {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/involved-sol-group-2013.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#blog-container .blog-main {
+  margin-top: 6rem;
+}
+
+#blog-container .blog-main .publications ul {
+  list-style-type: circle;
+}
+
+#blog-container .blog-main .resources ul {
+  list-style: circle;
+}
+
+#blog-container .blog-main .archives {
+  margin-bottom: 3rem;
+}
+
+#blog-container .blog-main .archives a {
+  margin-right: 1rem;
+}
+
+#about-container .about-main {
+  padding-top: 6rem;
+}
+
+#about-container .about-main #about-copy img {
+  width: 100%;
+  height: auto;
+}
+
+#about-container .about-main #community-copy .img-header-community {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/workshop-circle.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#about-container .about-main #community-copy .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-container .about-main #community-copy .partners img {
+  height: 250px;
+  width: 250px;
+}
+
+#about-container .about-main #community-copy .partners img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#about-container .about-main #staff-copy .img-header-staff {
+  height: 25rem;
+  width: 69.375rem;
+  background: url(../assets/images/involved-gfe-wellness-garden.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#contact-container {
+  padding-top: 6rem;
+}
+
+#contact-container .contact-main .info-contact .farm-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact-container .contact-main .info-contact .farm-contact a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#contact-container .contact-main .info-contact .farm-contact a:hover {
+  color: white;
+  -webkit-text-decoration: #f1cf69 underline;
+          text-decoration: #f1cf69 underline;
+}
+
+#contact-container .contact-main .info-contact .contact-social {
+  width: 100%;
+}
+
+#contact-container .contact-main .info-contact .contact-social a {
+  text-decoration: none;
+}
+
+#contact-container .contact-main .info-contact .contact-social i {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#contact-container .contact-main .info-contact .contact-social i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#contact-container .contact-main .map-area {
+  max-width: 100%;
+}
+
+#contact-container .contact-main .map-area iframe {
+  width: 100%;
+  height: auto;
+}
+
+#contact-container .contact-main .contact-area {
+  border-top: 2px solid #465649;
+  border-bottom: 2px solid #465649;
+}
+
+#contact-container .contact-main .contact-area form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact-container .contact-main .contact-area form .form-head {
+  font-size: 1.7rem;
+}
+
+#contact-container .contact-main .contact-area form .contact-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#contact-container .contact-main .contact-area form .contact-input .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-container .contact-main .contact-area form .contact-input i {
+  background: #465649;
+  font-size: 1rem;
+  color: #f1cf69;
+  margin: 0.3rem 0;
+  padding: 0.7rem;
+  width: 3rem;
+  height: auto;
+  text-align: center;
+}
+
+#contact-container .contact-main .contact-area form .contact-input input {
+  margin: 0.3rem 0;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+}
+
+#contact-container .contact-main .contact-area form .contact-textarea textarea {
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+}
+
+#contact-container .contact-main .contact-area form .contact-textarea .contact-button button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f1cf69;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#contact-container .contact-main .contact-area form .contact-textarea .contact-button button:hover {
+  background: #465649;
+  color: #f1cf69;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  font-family: "average sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "average sans", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "average sans", sans-serif;
+  color: #333;
+}
+
+#landing-page-container {
+  background: url(../assets/images/ghwithclass.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#landing-page-container .cta {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#landing-page-container .cta i {
+  font-size: 20rem;
+  color: #f1cf69;
+}
+
+#landing-page-container .cta h1 {
+  color: white;
+  font-size: 6rem;
+}
+
+#landing-page-container .cta button {
+  outline: none;
+  border: none;
+  background: #f1cf69;
+  color: #333;
+  padding: 1.3rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#landing-page-container .cta button:hover {
+  background: rgba(241, 207, 105, 0.9);
+  color: white;
+}
+/*# sourceMappingURL=week10main.css.map */
